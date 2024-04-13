@@ -23,7 +23,7 @@
                      <div class="navbar">
                             <div class="navbar-start">
                                    <ul
-                                          class="menu hover:bg-transparent text-white text-lg font-medium menu-horizontal lg:menu-horizontal rounded-box">
+                                          class="menu hover:bg-transparent text-white text-md font-bold menu-horizontal lg:menu-horizontal rounded-box">
                                           <li><a>Home</a></li>
                                           <li><a>About Us</a></li>
                                           <li><a>Shop</a></li>
@@ -33,11 +33,12 @@
                             <div class="navbar-center">
 
                                    <a
-                                          class="hover:bg-transparent flex flex-nowrap items-center gap-4 text-2xl text-white"><img
+                                          class="hover:bg-transparent flex flex-nowrap items-center gap-4 text-2xl font-bold text-white"><img
                                                  src="images/logo.png" alt="">Fruit Burst</a>
                             </div>
                             <div class="navbar-end">
-                                   <label class="input input-bordered rounded-full bg-white flex items-center gap-2">
+                                   <label
+                                          class="w-2/3 input input-bordered rounded-full bg-white flex items-center gap-2">
                                           <input type="text" class="grow font-normal text-base"
                                                  placeholder="Search here" />
                                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
@@ -228,11 +229,10 @@
                                                         <!-- if there is a button in form, it will close the modal -->
                                                         <button
                                                                class="btn border hover:text-white bg-white text-[#F85559] border-[#F85559] hover:border-[#F85559] hover:bg-[#F85559] px-8">Close</button>
-                                                        <button
-                                                               class="btn border text-white hover:bg-white hover:text-[#F85559] border-[#F85559] hover:border-[#F85559] bg-[#F85559] px-8">Buy
-                                                               Now</button>
-
                                                  </form>
+                                                 <button
+                                                        class="btn border text-white hover:bg-white hover:text-[#F85559] border-[#F85559] hover:border-[#F85559] bg-[#F85559] px-8">Buy
+                                                        Now</button>
                                           </div>
                                    </div>
                             </div>
@@ -260,11 +260,12 @@
                                                         <!-- if there is a button in form, it will close the modal -->
                                                         <button
                                                                class="btn border hover:text-white bg-white text-[#F85559] border-[#F85559] hover:border-[#F85559] hover:bg-[#F85559] px-8">Close</button>
-                                                        <button
+                                                        <a
                                                                class="btn border text-white hover:bg-white hover:text-[#F85559] border-[#F85559] hover:border-[#F85559] bg-[#F85559] px-8">Buy
-                                                               Now</button>
-
+                                                               Now</a>
                                                  </form>
+
+
                                           </div>
                                    </div>
                             </div>
@@ -292,11 +293,13 @@
                                                         <!-- if there is a button in form, it will close the modal -->
                                                         <button
                                                                class="btn border hover:text-white bg-white text-[#F85559] border-[#F85559] hover:border-[#F85559] hover:bg-[#F85559] px-8">Close</button>
-                                                        <button
+                                                        <a
                                                                class="btn border text-white hover:bg-white hover:text-[#F85559] border-[#F85559] hover:border-[#F85559] bg-[#F85559] px-8">Buy
-                                                               Now</button>
+                                                               Now</a>
 
                                                  </form>
+
+
                                           </div>
                                    </div>
                             </div>
@@ -322,13 +325,11 @@
                                           <div class="modal-action">
                                                  <form method="dialog">
                                                         <!-- if there is a button in form, it will close the modal -->
-                                                        <button
-                                                               class="btn border hover:text-white bg-white text-[#F85559] border-[#F85559] hover:border-[#F85559] hover:bg-[#F85559] px-8">Close</button>
-                                                        <button
-                                                               class="btn border text-white hover:bg-white hover:text-[#F85559] border-[#F85559] hover:border-[#F85559] bg-[#F85559] px-8">Buy
-                                                               Now</button>
-
+                                                        <button class="btn border hover:text-white bg-white text-[#F85559] border-[#F85559] hover:border-[#F85559] hover:bg-[#F85559] px-8">Close</button>
+                                                        <a class="btn border text-white hover:bg-white hover:text-[#F85559] border-[#F85559] hover:border-[#F85559] bg-[#F85559] px-8">Buy
+                                                               Now</a>
                                                  </form>
+
                                           </div>
                                    </div>
                             </div>
@@ -337,15 +338,13 @@
        </div>
 
        <div class="container mx-auto w-10/12 grid justify-items-center my-16">
-              <button
-                     class="btn border text-white hover:bg-white hover:text-[#F85559] border-[#F85559] hover:border-[#F85559] bg-[#F85559] px-8">Shop
+              <button class="btn border text-white hover:bg-white hover:text-[#F85559] border-[#F85559] hover:border-[#F85559] bg-[#F85559] px-8">Shop
                      Now</button>
        </div>
 
        <!-- ###################### Team Section ################## -->
 
-       <div
-              class="container w-10/12 mx-auto border rounded-lg mb-16 pb-20 bg-[url('images/team.png')] bg-center bg-cover bg-no-repeat">
+       <div class="container w-10/12 mx-auto border rounded-lg mb-16 pb-20 bg-[url('images/team.png')] bg-center bg-cover bg-no-repeat">
               <div class="bg-black/[0.7] rounded-lg">
                      <div class="text-center justify-items-center px-20 pt-20 pb-10">
                             <h2 class="text-white text-5xl font-extrabold">Meet the team section</h2>
@@ -406,58 +405,28 @@
 
 
        <!--  ################## Footer ##################### -->
-       <footer class="footer footer-center p-10 bg-[#121212] text-base-content rounded">
+       <footer class="footer footer-center py-28 bg-[#121212] text-base-content rounded">
               <div class="navbar-center">
 
                      <a class="hover:bg-transparent flex flex-nowrap items-center gap-4 text-4xl font-bold text-white"><img
                                    src="images/logo.png" alt="">Fruit Burst</a>
               </div>
-              <nav class="grid grid-flow-col gap-4 text-base font-bold">
-                     <a class="link">About us</a>
-                     <a class="link">Contact</a>
-                     <a class="link">Jobs</a>
-                     <a class="link">Press kit</a>
-                     <a class="link">Jobs</a>
-                     <a class="link">Press kit</a>
+              <nav class="grid grid-flow-col gap-8 text-base font-bold">
+                     <a class="link">Home</a>
+                     <a class="link">About Us</a>
+                     <a class="link">Shop</a>
+                     <a class="link">All Fruits</a>
+                     <a class="link">Support</a>
+                     <a class="link">My Account</a>
               </nav>
               <nav>
-                     <div class="grid grid-flow-col gap-4">
-                            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                          class="fill-current">
-                                          <path
-                                                 d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
-                                          </path>
-                                   </svg></a>
-                            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                          class="fill-current">
-                                          <path
-                                                 d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
-                                          </path>
-                                   </svg></a>
-                            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                          class="fill-current">
-                                          <path
-                                                 d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
-                                          </path>
-                                   </svg></a>
-                            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                          class="fill-current">
-                                          <path
-                                                 d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
-                                          </path>
-                                   </svg></a>
-                            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                          class="fill-current">
-                                          <path
-                                                 d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
-                                          </path>
-                                   </svg></a>
-                            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                          class="fill-current">
-                                          <path
-                                                 d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
-                                          </path>
-                                   </svg></a>
+                     <div class="grid grid-flow-col gap-8">
+                            <img class="h-6 object-contain" src="images/Vector (1).png" alt="">
+                            <img class="h-6 object-contain" src="images/facebook 1.png" alt="">
+                            <img class="h-6 object-contain" src="images/Group 49.png" alt="">
+                            <img class="h-6 object-contain" src="images/Group 50.png" alt="">
+                            <img class="h-6 object-contain" src="images/Group 51.png" alt="">
+                            <img class="h-6 object-contain" src="images/Group 52.png" alt="">
                      </div>
               </nav>
        </footer>
