@@ -1,0 +1,12 @@
+:root{
+       background-color: #fff!important;
+       color: #000;
+}
+
+h1,h2, h3, h4, h5, h6, p, ul, li, span, a, div, td, th, input, button, select, option, form, img, svg{
+       font-family: "Lato", sans-serif;
+}
+
+a{
+       text-decoration: none!important;
+}
